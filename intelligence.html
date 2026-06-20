@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Market Intelligence | Tidebreak Creative</title>
+  <meta name="description" content="The Tideline Score: market penetration maps, device adoption tracking, competitive analysis, and local opportunity reports for aesthetic clinics, built on a database of 6,800+ clinics." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="progress" aria-hidden="true"></div>
+  <nav class="nav" aria-label="Primary navigation">
+    <a class="brand" href="index.html">
+      <span class="brand-mark"><svg viewBox="0 0 24 24" fill="none"><path d="M2 16c1.5 0 1.5-2 3-2s1.5 2 3 2 1.5-2 3-2 1.5 2 3 2 1.5-2 3-2 1.5 2 3 2 1.5-2 3-2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M2 11c1.5 0 1.5-2 3-2s1.5 2 3 2 1.5-2 3-2 1.5 2 3 2 1.5-2 3-2 1.5 2 3 2 1.5-2 3-2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" opacity=".45"/></svg></span>
+      <span>Tidebreak <small>Creative</small></span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a class="active" href="intelligence.html">Market Intelligence</a>
+      <a href="work.html">Work</a>
+      <a class="nav-cta" href="contact.html">Start a conversation</a>
+    </div>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="mobile-panel">Menu</button>
+  </nav>
+  <div class="mobile-panel" id="mobile-panel">
+    <a href="index.html">Home</a><a href="services.html">Services</a><a href="intelligence.html">Market Intelligence</a><a href="work.html">Work</a><a href="contact.html">Contact</a>
+  </div>
+
+  <main class="site-shell">
+    <section class="section page-hero">
+      <div class="inner">
+        <span class="eyebrow reveal">Pillar 03 — the differentiator</span>
+        <h1 class="display reveal delay-1">This is where it gets <em>interesting.</em></h1>
+        <p class="lead reveal delay-2">Most agencies sell content and call it strategy. We start from a database of 6,800+ aesthetic clinics across the US, Canada, and beyond — tracking device adoption, market saturation, and opportunity gaps before a single post gets written.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="inner">
+        <span class="eyebrow reveal">The Tideline Score</span>
+        <h2 class="headline reveal delay-1">Every clinic we track gets a number. That number tells you where to grow.</h2>
+        <div class="intel-grid reveal delay-2" style="margin-top:48px;">
+          <div class="proof-card">
+            <span class="proof-label">Market penetration — sample ZIP cluster</span>
+            <div class="score-map" id="scoreMapBig"></div>
+            <div class="score-legend">
+              <span><span class="legend-dot" style="background:#1c3940;"></span>Low saturation — opportunity</span>
+              <span><span class="legend-dot" style="background:#3c8a78;"></span>Moderate</span>
+              <span><span class="legend-dot" style="background:#d97b3f;"></span>High saturation — crowded</span>
+            </div>
+          </div>
+          <div class="proof-card">
+            <span class="proof-label">Device adoption — regional sample</span>
+            <div class="device-bars">
+              <div class="dbar-row"><span>CO2 laser</span><div class="dbar-track"><div class="dbar-fill" style="width:71%;"></div></div><span>71%</span></div>
+              <div class="dbar-row"><span>RF micro.</span><div class="dbar-track"><div class="dbar-fill" style="width:38%;"></div></div><span>38%</span></div>
+              <div class="dbar-row"><span>HIFU</span><div class="dbar-track"><div class="dbar-fill" style="width:22%;"></div></div><span>22%</span></div>
+              <div class="dbar-row"><span>Morpheus8</span><div class="dbar-track"><div class="dbar-fill" style="width:54%;"></div></div><span>54%</span></div>
+              <div class="dbar-row"><span>PicoLaser</span><div class="dbar-track"><div class="dbar-fill" style="width:17%;"></div></div><span>17%</span></div>
+            </div>
+          </div>
+          <div class="proof-card">
+            <span class="proof-label">Competitive analysis — within 5mi radius</span>
+            <div class="list-lines" style="border-top:none;">
+              <div class="list-line" style="grid-template-columns:1fr 70px;"><div><b>Clinics tracked nearby</b><small>Active aesthetic & derm practices</small></div><span style="color:var(--break);font-family:var(--mono);font-size:20px;text-align:right;">14</span></div>
+              <div class="list-line" style="grid-template-columns:1fr 70px;"><div><b>Offering your top service</b><small>Direct service overlap</small></div><span style="color:var(--flare);font-family:var(--mono);font-size:20px;text-align:right;">9</span></div>
+              <div class="list-line" style="grid-template-columns:1fr 70px;"><div><b>With education content live</b><small>Patient-facing explainers</small></div><span style="color:var(--break);font-family:var(--mono);font-size:20px;text-align:right;">3</span></div>
+            </div>
+          </div>
+          <div class="proof-card">
+            <span class="proof-label">Your Tideline Score</span>
+            <div class="score-stat"><span class="num">78</span><span class="unit">/ 100 — strong opportunity</span></div>
+            <p style="margin-top:12px;">Weighted from local saturation, device gaps, content presence, and review velocity against every clinic we track in your radius. Recalculated quarterly as the market shifts.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tilt-band">
+      <div class="inner reveal">
+        <div class="tilt-copy">
+          <span class="eyebrow">How the score is built</span>
+          <h2 class="midline">Four inputs. One number you can act on.</h2>
+          <p>The Tideline Score isn't a vanity metric — every input maps to something we can build a campaign, page, or content pillar against.</p>
+        </div>
+        <div class="tilt-meter">
+          <div class="meter-row"><strong>Saturation</strong><span>How crowded your local category is</span></div>
+          <div class="meter-row"><strong>Device gap</strong><span>Technology your competitors lack</span></div>
+          <div class="meter-row"><strong>Content gap</strong><span>Education content nobody nearby has built</span></div>
+          <div class="meter-row"><strong>Review velocity</strong><span>How fast trust is compounding nearby</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="inner">
+        <span class="eyebrow reveal">Local opportunity reports</span>
+        <h2 class="headline reveal delay-1">A report you can hand to a partner, an investor, or your own team.</h2>
+        <div class="two-col" style="margin-top:48px;">
+          <div class="reveal proof-card">
+            <span class="proof-label">Sample report contents</span>
+            <div class="list-lines" style="border-top:none;">
+              <div class="list-line"><span>01</span><div><b>Market summary</b><small>Total clinics, saturation level, and growth trend in your radius.</small></div></div>
+              <div class="list-line"><span>02</span><div><b>Device & service gap</b><small>What's offered nearby and what isn't — your fastest differentiator.</small></div></div>
+              <div class="list-line"><span>03</span><div><b>Content gap</b><small>Which education topics no competitor has covered yet.</small></div></div>
+              <div class="list-line"><span>04</span><div><b>Recommended pillar</b><small>Which of our four pillars will move the needle fastest for you specifically.</small></div></div>
+            </div>
+          </div>
+          <div class="reveal delay-1 proof-card">
+            <span class="proof-label">Why most agencies can't do this</span>
+            <p>Building this requires tracking thousands of clinics over time — services, devices, content, and reviews — and keeping the dataset current. It's infrastructure most marketing agencies have no reason to build, because most marketing agencies aren't built around data first.</p>
+            <p style="margin-top:14px;">We built it because we couldn't responsibly recommend a content calendar or a website rebuild without knowing what was actually happening in the market first.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="inner contact-panel reveal">
+        <div><span class="eyebrow">Get your number</span><h2 class="headline">What's your clinic's Tideline Score?</h2><p class="lead">Send your clinic name and city. We'll run it against the database and tell you exactly where you stand — no cost, no obligation.</p>
+          <div class="hero-actions"><a class="btn btn-primary" href="contact.html">Request my score</a></div>
+        </div>
+        <div class="list-lines">
+          <div class="list-line"><span>✓</span><div><b>Free initial scoring</b><small>We'll tell you your number before any engagement.</small></div></div>
+          <div class="list-line"><span>✓</span><div><b>Recalculated quarterly</b><small>The market moves — your score moves with it.</small></div></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><div class="inner"><span>© <span data-year></span> Tidebreak Creative. San Diego, CA.</span><span><a href="mailto:rob@tidebreakcreative.com">rob@tidebreakcreative.com</a></span></div></footer>
+  <script src="script.js"></script>
+  <script>
+    (function() {
+      const grid = document.getElementById('scoreMapBig');
+      if (!grid) return;
+      const colors = ['#16323a', '#1c3940', '#235058', '#2c6b5c', '#3c8a78', '#5a9d7e', '#c2622a', '#d97b3f'];
+      const weights = [3, 5, 6, 8, 7, 5, 3, 2];
+      const pool = [];
+      colors.forEach((c, i) => { for (let n = 0; n < weights[i]; n++) pool.push(c); });
+      let seed = 117;
+      function rand() { seed = (seed * 9301 + 49297) % 233280; return seed / 233280; }
+      for (let i = 0; i < 70; i++) {
+        const cell = document.createElement('div');
+        cell.className = 'score-cell';
+        cell.style.background = pool[Math.floor(rand() * pool.length)];
+        grid.appendChild(cell);
+      }
+    })();
+  </script>
+</body>
+</html>
